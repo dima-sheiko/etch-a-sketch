@@ -118,4 +118,44 @@ input[type='color']::-webkit-color-swatch {
 .grid-element {
     user-select: none;
 }
-  
+
+/* Media Queries */
+
+@media(max-width: 830px) {
+
+    h1 {
+        font-size: 40px;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .grid {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 510px) {
+    h1 {
+        font-size: 40px;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .grid {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+}
